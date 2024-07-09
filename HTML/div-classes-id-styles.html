@@ -1,0 +1,45 @@
+<!-- Two tags can have same class name but id name must be unique. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Division</title>
+
+    <style>
+        h1{
+            background-color: beige;
+        }
+        .heading{
+            border: 2px solid black;
+        }
+        #hello{
+            border: 2px solid black;
+        }
+    </style>
+
+</head>
+<body>
+    <div style="background-color: blue;">
+        <h1 class="heading">Example Of Div</h1>
+        <div style="background-color: orange;">
+            <h2>Div-1</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facere atque, ratione sapiente omnis, cum quo distinctio dicta, iusto ullam cupiditate vitae et porro maxime explicabo error recusandae nobis ex.
+            Recusandae culpa quod mollitia, aspernatur minima vitae doloribus natus nostrum tenetur est ducimus. Et quae cum aliquid doloribus, excepturi voluptas saepe? Sequi sit eum accusantium error quasi earum impedit dolores!
+            Quae asperiores recusandae nam molestias unde minus molestiae. Sed consequuntur aliquam quidem porro cumque hic, deleniti omnis architecto voluptatibus cupiditate eius, aliquid, quod optio. Ex, cupiditate dolorem! Ullam, ex accusantium!
+            </p>
+        </div>
+
+        <div style="background-color: greenyellow;">
+            <h2>Div-2</h2>
+            <p id="hello">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facere atque, ratione sapiente omnis, cum quo distinctio dicta, iusto ullam cupiditate vitae et porro maxime explicabo error recusandae nobis ex.
+            Recusandae culpa quod mollitia, aspernatur minima vitae doloribus natus nostrum tenetur est ducimus. Et quae cum aliquid doloribus, excepturi voluptas saepe? Sequi sit eum accusantium error quasi earum impedit dolores!
+            Quae asperiores recusandae nam molestias unde minus molestiae. Sed consequuntur aliquam quidem porro cumque hic, deleniti omnis architecto voluptatibus cupiditate eius, aliquid, quod optio. Ex, cupiditate dolorem! Ullam, ex accusantium!
+            </p>
+        </div>
+    </div>
+</body>
+</html>
